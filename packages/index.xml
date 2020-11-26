@@ -1,26 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Packages on AtlasCloud</title>
-    <link>http://atlascloud.xyz/packages/</link>
-    <description>Recent content in Packages on AtlasCloud</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 25 Nov 2020 15:04:17 -0800</lastBuildDate><atom:link href="http://atlascloud.xyz/packages/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Intro to using AtlasCloud Alpine package repo</title>
-      <link>http://atlascloud.xyz/packages/intro/</link>
-      <pubDate>Wed, 25 Nov 2020 15:04:17 -0800</pubDate>
-      
-      <guid>http://atlascloud.xyz/packages/intro/</guid>
-      <description>Intro to using AtlasCloud Alpine package repo
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Packages on AtlasCloud</title><link>https://atlascloud.xyz/packages/</link><description>Recent content in Packages on AtlasCloud</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><copyright>Copyright &amp;copy; {year}</copyright><lastBuildDate>Wed, 25 Nov 2020 15:04:17 -0800</lastBuildDate><atom:link href="https://atlascloud.xyz/packages/index.xml" rel="self" type="application/rss+xml"/><item><title>Intro to using AtlasCloud Alpine package repo</title><link>https://atlascloud.xyz/packages/intro/</link><pubDate>Wed, 25 Nov 2020 15:04:17 -0800</pubDate><guid>https://atlascloud.xyz/packages/intro/</guid><description>Intro to using AtlasCloud Alpine package repo
 Install gpg key
-curl -o /etc/apk/keys/packages@atlascloud.xyz-5c7e1f40.rsa.pub packages.atlascloud.xyz/atlascloud/alpine/packages@atlascloud.xyz-5c7e1f40.rsa.pub add repo
+curl -o /etc/apk/keys/packages@atlascloud.xyz-5c7e1f40.rsa.pub \ packages.atlascloud.xyz/atlascloud/alpine/packages@atlascloud.xyz-5c7e1f40.rsa.pub add repo
 echo https://packages.atlascloud.xyz/atlascloud/alpine/3.12/main &amp;gt;&amp;gt; /etc/apk/repositories update
 apk update install stuff
 apk add linux-vanilla-atlas $
-echo profit </description>
-    </item>
-    
-  </channel>
-</rss>
+echo profit</description></item></channel></rss>
